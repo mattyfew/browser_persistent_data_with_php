@@ -1,9 +1,10 @@
 <?php
-$word1 = '__';
-$word2 = '__';
-$word3 = '__';
-$word4 = '__';
-$word5 = '__';
+session_start();
+$word1 = htmlspecialchars($_SESSION['word'][1]);
+$word2 = htmlspecialchars($_SESSION['word'][2]);
+$word3 = htmlspecialchars($_SESSION['word'][3]);
+$word4 = htmlspecialchars($_SESSION['word'][4]);
+$word5 = htmlspecialchars($_SESSION['word'][5]);
 
 include 'inc/header.php';
 
