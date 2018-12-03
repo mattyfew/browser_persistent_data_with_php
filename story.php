@@ -17,7 +17,7 @@ echo '<p>This ' .  $word3;
 echo ' programmer used Treehouse to learn to ' . $word4;
 echo ' the ' . $word5 . '.</p>';
 
-echo ' <a class="btn btn-default btn-lg" href="#" role="button">Save Story</a>';
+echo ' <a class="btn btn-default btn-lg" href="inc/cookie.php?save" role="button">Save Story</a>';
 echo ' <a class="btn btn-default btn-lg" href="play.php" role="button">Play Again</a>';
 echo ' <a class="btn btn-default btn-lg" href="index.php" role="button">Other Stories</a>';
 
